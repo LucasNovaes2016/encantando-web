@@ -25,15 +25,16 @@ export default class Home extends Component {
                     </div>
                 </div>
                 <img  id = "peopleLeft"  src = { Dancers } alt = ""/>
+                <img  id = "peopleRight"  src = { PeopleRight } alt = ""/>
                 <div className = "menu">
                     <div>
                         <h2 onClick = {() => this.props.history.push('/novo')}>Iniciar</h2>
                     </div>
                     <div>
-                        <h2>Créditos</h2>
+                        <h2 onClick = {() => this.props.history.push('/sextilha-info')}>Creditos</h2>
                     </div>
                 </div>
-                <img  id = "peopleRight"  src = { PeopleRight } alt = ""/>
+                
             </div>
         )
     }
