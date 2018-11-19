@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './SextilhaInfo.css';
-
-
 import PeopleRight  from '../../images/peopleRight.png';
 
 export default class SextilhaInfo extends Component {
