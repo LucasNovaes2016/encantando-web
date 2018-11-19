@@ -31,10 +31,9 @@ export default class Home extends Component {
                         <h2 onClick = {() => this.props.history.push('/novo')}>Iniciar</h2>
                     </div>
                     <div>
-                        <h2 onClick = {() => this.props.history.push('/sextilha-info')}>Creditos</h2>
+                        <h2 onClick = {() => this.props.history.push('/')}>Creditos</h2>
                     </div>
-                </div>
-                
+                </div> 
             </div>
         )
     }
